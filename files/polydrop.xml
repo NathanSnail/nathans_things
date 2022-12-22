@@ -1,0 +1,19 @@
+<Entity tags="effect_protection,effect_sussyamogus" >
+	
+	<InheritTransformComponent>
+    </InheritTransformComponent>	
+    
+    <GameEffectComponent
+		_tags="effect_protection"
+        effect="PROTECTION_POLYMORPH"
+        frames="7200"
+    >
+	</GameEffectComponent >
+	<LuaComponent
+		_enabled="1",
+		execute_on_added="1",
+		script_source_file="mods/nathans_things/poly_give.lua"
+	>
+	</LuaComponent>
+
+</Entity>

@@ -1,0 +1,10 @@
+<Entity >
+   
+	<LuaComponent
+		script_source_file="mods/nathans_things/files/scripts/manifest_mana.lua"
+		execute_on_added="1"
+		execute_every_n_frame="-1"
+		>
+	</LuaComponent>
+  
+</Entity>

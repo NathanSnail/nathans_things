@@ -1,0 +1,12 @@
+<Entity >
+	<VariableStorageComponent
+		name="nathan_things_shooter"
+		value_int="0"
+		>
+	</VariableStorageComponent>
+	<LuaComponent
+		script_source_file="mods/nathans_things/files/scripts/burn_mana.lua"
+		execute_every_n_frame="1"
+		>
+	</LuaComponent>  
+</Entity>

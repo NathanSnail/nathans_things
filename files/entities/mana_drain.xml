@@ -1,0 +1,25 @@
+<Entity>
+	<InheritTransformComponent 
+		_enabled="1" >
+    </InheritTransformComponent>	
+    
+    <LuaComponent
+		script_source_file="mods/nathans_things/files/scripts/mana_drain.lua"
+		execute_every_n_frame="1" >
+	</LuaComponent>
+	
+	<LifetimeComponent
+		lifetime="180"
+		>
+	</LifetimeComponent>
+	
+	<UIIconComponent
+		name="Mana Drain"
+		description="Your mana is draining"
+		icon_sprite_file="mods/nathans_things/files/sprites/spells/memory_spell.png"
+		is_perk="0"
+		display_above_head="0"
+		display_in_hud="1"
+		>
+	</UIIconComponent>
+</Entity>
